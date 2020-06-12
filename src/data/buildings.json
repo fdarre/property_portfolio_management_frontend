@@ -1,0 +1,28 @@
+{
+  "Buildings":[
+    {
+      "type":"Building",
+      "address":"154 rue de la Vache 57000 Metz"
+    },
+    {
+      "type":"House",
+      "address":"101 rue du Chat 57100 Thionville"
+    },
+    {
+      "type":"Building",
+      "address":"123 rue des Ours 57000 Metz"
+    },
+    {
+      "type":"Building",
+      "address":"55 rue des Serpents 57100 Thionville"
+    },
+    {
+      "type":"House",
+      "address":"143 rue des Escargots 57000 Metz"
+    },
+    {
+      "type":"Building",
+      "address":"109 rue du Poulet 57100 Yutz"
+    }
+  ]
+}
