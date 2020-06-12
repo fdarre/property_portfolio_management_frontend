@@ -1,5 +1,5 @@
 import React from 'react';
-import BuildingCard from './components/BuildingCard'
+import BuildingList from './components/BuildingList'
 import './App.css';
 
 
@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return(
         <div className="App">
-          <BuildingCard />
+          <BuildingList />
         </div>
     )
   }
