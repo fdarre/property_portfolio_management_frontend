@@ -1,9 +1,15 @@
 import React from 'react';
+import MediaCard from "./MediaCard";
 
 class BuildingCard extends React.Component {
     render() {
-        return <h1>Building name</h1>;
+        return(
+            <MediaCard />
+        )
     }
 }
 
 export default BuildingCard;
+
+
+
