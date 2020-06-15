@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.MuiContainer-root{
+  background-color: #EEF1FE;
+}
+
+.MuiAppBar-root{
+  margin-bottom: 20px;
+}
