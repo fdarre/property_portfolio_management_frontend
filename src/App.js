@@ -1,14 +1,17 @@
 import React from 'react';
 import BuildingList from './components/BuildingList'
-import './App.css';
+import SearchAppBar from "./components/SearchAppBar";
+import Container from '@material-ui/core/Container';
+import './App.scss';
 
 
 class App extends React.Component {
   render() {
     return(
-        <div className="App">
-          <BuildingList />
-        </div>
+        <Container maxWidth="xl" className="App">
+            <SearchAppBar />
+            <BuildingList />
+        </Container>
     )
   }
 }
